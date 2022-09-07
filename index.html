@@ -9,6 +9,9 @@
     <style>
         * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 20px;
         }
         .box1 {
             background-color: blue;
@@ -18,20 +21,39 @@
             border: 20px solid green;
             padding: 20px;
             /* border-radius: 20px; */
-            margin: 80px;
+            margin: 20px 20px 40px 20px;
+            
         }
 
         .box2 {
             background-color: red;
+            padding: 20px;
+            height: 100px;
+            width: 600px;
+            border: 20px solid green;
+            margin: 80px 20px 20px 20px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            position: absolute;    
+            text-align: center;
+            left: 25%;
+            top: 150%;
+            transform: translate(-50%,-50%);
         }
     </style>
 </head>
 <body>
-    <div class="box1">
-        1st box content
-    </div>
-    <div class="box2">
-        2nd box content
+    <div>
+        <div class="box1">
+            1st box content
+        </div>
+        <div class="box2">
+            2nd box content
+        </div>
+        <img src="https://github.com/WD16-KodeGo-Batch/image-sources/blob/main/box-model3.png?raw=true
+        " />
     </div>
 </body>
 </html>
